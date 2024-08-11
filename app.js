@@ -81,9 +81,7 @@ async function main() {
 
 // }
 
-app.get("/", (req, res) => {
-  res.send("this is root page");
-});
+
 
 app.use((req,res,next)=>{
   res.locals.success=req.flash("success");
