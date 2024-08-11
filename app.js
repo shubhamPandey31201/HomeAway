@@ -72,7 +72,7 @@ app.engine("ejs", ejsMate);
 
 const PORT = 8080;
 
-console.log(MONGO_URL);
+
 main()
   .then((result) => {
     console.log("connected to db");
